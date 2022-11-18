@@ -1,16 +1,15 @@
 import React from 'react';
 import Image from 'next/image';
 
-import Layaout from '../components/Layaout';
 import styles from '../styles/Otro.module.css';
 
-export default function innovaciones() {
+export const Innovaciones = () => {
   return (
-    <div className={styles.container}>
-      <Layaout
-        title="Innovación"
-        description="Innovación"
-      >
+    <div className={styles.container} id="innovaciones">
+
+        <div className={styles.divseccion}>
+          <p>Nuestras Innovaciones</p>
+        </div>
         <div className={styles.divinterno}>
           <div className={styles.card}>
             <h2>Pastas Untables</h2>
@@ -52,7 +51,7 @@ export default function innovaciones() {
               />
             </div>
           </div>
-        </Layaout>
+
       </div>
   )
 }

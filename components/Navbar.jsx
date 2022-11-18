@@ -1,8 +1,10 @@
 import React from 'react';
-import Link from 'next/link';
+import {Link} from 'react-scroll/modules';
+import Links from 'next/link';
 import Image from 'next/image';
 
 import styles from '../styles/Otro.module.css';
+
 
 export const Navbar = () => {
   return (
@@ -10,18 +12,31 @@ export const Navbar = () => {
         <nav className={styles.nav}>
             <ul className={styles.ul}>
                 <li className={styles.li}>
-                    <Link className={styles.a} href="/">
-                        AWMA 
-                    </Link>
+                  <Link 
+                    className={styles.a} 
+                    to="awma" 
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}   
+                  >
+                    AWMA
+                  </Link>
                 </li>
                 <li className={styles.li}>
-                  <Link className={styles.a} href="/innovaciones">
+                  <Link 
+                    className={styles.a} 
+                    to="innovaciones" 
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
                     Nuestras Innovaciones 
                   </Link>
                 </li>
-
                 <li className={styles.li}>
-                  <Link className={styles.a} href="#">
+                  <Links className={styles.a} href="#">
                     <Image
                       src={"/img/facebook.png"}
                       height={50}
@@ -29,10 +44,10 @@ export const Navbar = () => {
                       alt="facebook"
                       className={styles.logo} 
                     />
-                  </Link>
+                  </Links>
                 </li> 
                 <li className={styles.li}>
-                  <Link className={styles.a} href="#">
+                  <Links className={styles.a} href="#">
                     <Image
                       src={"/img/gorjeo.png"}
                       height={50}
@@ -40,10 +55,10 @@ export const Navbar = () => {
                       alt="twitter"
                       className={styles.logo} 
                     />
-                  </Link>
+                  </Links>
                 </li>
                 <li className={styles.li}>
-                  <Link className={styles.a} href="#">
+                  <Links className={styles.a} href="#">
                     <Image
                       src={"/img/instagram.png"}
                       height={50}
@@ -51,10 +66,10 @@ export const Navbar = () => {
                       alt="instagram"
                       className={styles.logo} 
                     />
-                  </Link>
+                  </Links>
                 </li>
                 <li className={styles.li}>
-                  <Link className={styles.a} href="#">
+                  <Links className={styles.a} href="#">
                     <Image
                       src={"/img/linkedin.png"}
                       height={50}
@@ -62,10 +77,10 @@ export const Navbar = () => {
                       alt="linkedin"
                       className={styles.logo} 
                     />
-                  </Link>
+                  </Links>
                 </li>
                 <li className={styles.li}>
-                  <Link className={styles.a} href="#">
+                  <Links className={styles.a} href="#">
                     <Image
                       src={"/img/whatsapp.png"}
                       height={50}
@@ -73,7 +88,7 @@ export const Navbar = () => {
                       alt="whatsapp"
                       className={styles.logo} 
                     />
-                  </Link>
+                  </Links>
                 </li>
             </ul>
         </nav>

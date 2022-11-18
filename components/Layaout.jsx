@@ -1,6 +1,5 @@
 import React from 'react';
 import Head from 'next/head';
-import Link from 'next/link';
 
 import styles from '../styles/Otro.module.css';
 import {Navbar} from './Navbar';
@@ -8,34 +7,26 @@ import {Footer} from './Footer';
 import {Header} from './Header';
 
 
-export default function Layaout({children, title, description, home}) {
+export default function Layaout({children, title, description}) {
   return (
     <div className={styles.container}>
         <Head>
             <link rel="icon" href="/favicon.ico" />
             <title>{title}</title>
             <meta name="description" content={description} />
+            <meta name="viewport" content="width=device-width,initial-scale=1"/>
         </Head>
         <header className={styles.header}>
 
         </header>
         <Navbar />
-        <main>{children}</main>
-        {!home && (
-            <div className={styles.main}>
-                <Link 
-                    href="/"
-                    className={styles.boton}>
-                    ← Inicio
-                </Link>
-            </div>
-      )}
-      <footer><Footer /></footer>
+        <div className={styles.container}>{children}</div>
+        <footer><Footer /></footer>
     </div>
   )
 }
 
 Layaout.defaultProps = {
-    title: "Mi Sitio Web",
+    title: "AWMA",
     description: "Descripción de mi Sitio Web"
 };

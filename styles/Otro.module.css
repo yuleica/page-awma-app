@@ -61,7 +61,7 @@
   flex-grow: 2;
   left: 0;
   right: 0;
-  padding: 0 0 4rem;
+  padding: 0 0 45px;
   justify-content: center;
   align-items: center;
   background-color: #ea80dc;
@@ -101,6 +101,18 @@
   transition: color 0.15s ease;
 }
 
+.divseccion{
+  background-color: #ea80dc;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+  padding: 15px;
+  width: 100vw;
+}
+
+
+
 .card {
   margin: 1rem;
   padding: 1.5rem;
@@ -134,7 +146,7 @@
 }
 
 .logo {
-  align-items: center;
+  align-items:flex-end;
   /*margin-left: 0.5rem;*/
 }
 
@@ -197,7 +209,7 @@ hacer el resaltado en arándano */
   font-size: 1.5rem;
   line-height: 1.5rem;
   display: flex;
-  padding: 0px 80px;
+  padding: 15px 80px;
 }
 
 .plogo {
@@ -226,25 +238,22 @@ hacer el resaltado en arándano */
   justify-content: space-between;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}
+@media (min-width: 0px) and (max-width: 700px){
 
-@media (max-width: 450px) {
-  .container {
-    width: 100%;
+
+   .container {
+    width: 100vw;
     margin: 0;
   }
   .grid {
-    width: 100%;
+    width: 100vw;
+    flex-wrap: wrap;
     flex-direction: column;
     padding: 0;
   }
 
   .footer {
+    width: 200vw;
     flex-direction: column;
     justify-content: space-around;
     margin-right: 0;
@@ -255,39 +264,51 @@ hacer el resaltado en arándano */
 
   .footer p {
     justify-content: center;
-    padding: 0px 45px;
+    padding: 15px 45px;
   }
 
   .nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-    justify-items: center;
     margin-right: 0;
     margin-left: 0;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
 
   }
 
   .nav ul li{
-    font-size: 1.5rem;
-    display: inline-flex;
+    font-size: 2rem;
+    padding: auto;
   }
 
   .card {
     align-items: center;
     align-content: center;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     font-size: 4rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: auto;
   }
+
+
 
   .divinterno {
     display: flex;
     flex-direction: column-reverse;
-    width: 100%;
-    margin: 0;
+    width: 100vw;
+    margin-left: 20px;
+    margin-right: 20px;
   }
+
+  .divseccion{
+    padding: auto;
+    width: 100vw;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
 
 }
 
