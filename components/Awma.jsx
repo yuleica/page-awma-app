@@ -7,7 +7,7 @@ export const Awma = () => {
   return (
     <div className={styles.container} id="awma">
 
-        <section className={styles.main}>
+        <section className={styles.container}>
           <div className={styles.divinterno}>
             <div className={styles.card}>
               <h2 className={styles.title}>AWMA</h2>

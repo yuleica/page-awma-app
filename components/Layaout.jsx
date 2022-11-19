@@ -16,9 +16,7 @@ export default function Layaout({children, title, description}) {
             <meta name="description" content={description} />
             <meta name="viewport" content="width=device-width,initial-scale=1"/>
         </Head>
-        <header className={styles.header}>
-
-        </header>
+        <header><Header /></header>
         <Navbar />
         <div className={styles.container}>{children}</div>
         <footer><Footer /></footer>

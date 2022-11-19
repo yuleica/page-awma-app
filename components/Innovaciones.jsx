@@ -8,7 +8,7 @@ export const Innovaciones = () => {
     <div className={styles.container} id="innovaciones">
 
         <div className={styles.divseccion}>
-          <p>Nuestras Innovaciones</p>
+          <h2>Nuestras Innovaciones</h2>
         </div>
         <div className={styles.divinterno}>
           <div className={styles.card}>
