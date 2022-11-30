@@ -5,6 +5,7 @@ import {Awma} from '../components/Awma';
 import {Innovaciones} from '../components/Innovaciones';
 import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
+import { Cierre } from '../components/Cierre';
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <Awma />
         <Innovaciones />
         <Footer />
+        <Cierre />
     </div>
   )
 }

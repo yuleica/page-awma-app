@@ -38,9 +38,9 @@ export const Navbar = () => {
                 <li className={styles.li}>
                   <Links className={styles.a} href="#">
                     <Image
-                      src={"/img/facebook.png"}
-                      height={50}
-                      width={50}
+                      src={"/img/Facebook_W.png"}
+                      height={40}
+                      width={40}
                       alt="facebook"
                       className={styles.logo} 
                     />
@@ -49,9 +49,9 @@ export const Navbar = () => {
                 <li className={styles.li}>
                   <Links className={styles.a} href="#">
                     <Image
-                      src={"/img/gorjeo.png"}
-                      height={50}
-                      width={50}
+                      src={"/img/Twitter_W.png"}
+                      height={40}
+                      width={40}
                       alt="twitter"
                       className={styles.logo} 
                     />
@@ -60,9 +60,9 @@ export const Navbar = () => {
                 <li className={styles.li}>
                   <Links className={styles.a} href="#">
                     <Image
-                      src={"/img/instagram.png"}
-                      height={50}
-                      width={50}
+                      src={"/img/Instagram_W.png"}
+                      height={40}
+                      width={40}
                       alt="instagram"
                       className={styles.logo} 
                     />
@@ -71,9 +71,9 @@ export const Navbar = () => {
                 <li className={styles.li}>
                   <Links className={styles.a} href="#">
                     <Image
-                      src={"/img/linkedin.png"}
-                      height={50}
-                      width={50}
+                      src={"/img/Linkedin_W.png"}
+                      height={40}
+                      width={40}
                       alt="linkedin"
                       className={styles.logo} 
                     />
@@ -82,9 +82,9 @@ export const Navbar = () => {
                 <li className={styles.li}>
                   <Links className={styles.a} href="#">
                     <Image
-                      src={"/img/whatsapp.png"}
-                      height={50}
-                      width={50}
+                      src={"/img/Whatsapp_W.png"}
+                      height={40}
+                      width={40}
                       alt="whatsapp"
                       className={styles.logo} 
                     />

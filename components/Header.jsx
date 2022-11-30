@@ -8,9 +8,9 @@ export const Header = () => {
     <div className={styles.header}>
       <div className={styles.divinterno}>
           <Image
-            src={"/img/Logotipo_AWMA_SinT.jpg"}
-            height={250}
-            width={200}
+            src={"/img/Logotipo_AWMA_SinT.png"}
+            height={500}
+            width={350}
             alt="AWMA"
             className={styles.headerlogo} 
           />

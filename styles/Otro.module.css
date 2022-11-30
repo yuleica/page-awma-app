@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   width: 100vw;
-  align-items: center;
+  /*align-items: center;*/
 }
 
 .main {
@@ -20,7 +20,6 @@
   display: flex;
   flex-direction: column;
   padding: auto;
-  
   
 }
 
@@ -45,6 +44,13 @@
 .title {
   text-align: center;
 }
+
+.titleawma {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 1.5rem;
+}
+
 
 .description {
   text-align: left;
@@ -111,6 +117,7 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  font-size: 3rem;
 }
 
 .li:hover,
@@ -129,8 +136,6 @@
   padding: 15px;
   width: 100vw;
 }
-
-
 
 .card {
   margin: 1rem;
@@ -163,6 +168,71 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5rem;
+}
+
+.cardawma1{
+  padding: 20px;
+  text-align: center;
+  grid-column: 1;
+  grid-row: 1;
+  margin: 1rem;
+  text-align: justify;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+ 
+  align-items: baseline;
+  width: 50vw;
+}
+
+.cardawma2{
+  padding: 20px;
+  text-align: center;
+  grid-column: 2;
+  grid-row: 1;
+  margin: 1rem;
+  text-align: justify;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+
+  align-items: baseline;
+  width: 50vw;
+}
+
+.cardawma1:hover,
+.cardawma1:focus,
+.cardawma1:active {
+  color: #9c94e3;
+  border-color: #9c94e3;
+}
+
+.gridawma{
+  display:  grid;
+  -webkit-display: -ms-grid;
+  -webkit-display: -moz-grid;
+  grid-template-columns: auto auto;
+  row-gap: 50px 100px;
+  grid-auto-rows: minmax(100px, auto);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.descriptionawma {
+  text-align: left;
+}
+
+.descriptionawma {
+  margin: 4rem 0;
+  line-height: 1;
+  font-size: 1rem;
+  padding: auto;
 }
 
 .logo {
@@ -223,6 +293,10 @@
   line-height: 1.5rem;
 }
 
+.cierre{
+  width: 100vw;
+}
+
 .footer a:hover {
   color: #ea80dc;
 }
@@ -273,20 +347,21 @@ hacer el resaltado en arándano */
   } 
 
 
-  .grid {
+  .grid{
     width: 250vw;
     flex-direction: column;
     padding: 0px;
     margin: 0px;
   }
 
-  .footer {
+
+  .footer, .cierre {
     width: 250vw;
     flex-direction: column;
     justify-content: space-around;
     margin-right: 0;
     margin-left: 0;
-    position: absolute;
+    /*position: absolute;*/
   }
   
 
@@ -313,22 +388,22 @@ hacer el resaltado en arándano */
  
   }
 
-  .card {
+  .cardawma1, .cardawma2 {
     align-items: center;
     align-content: center;
     justify-content: center;
-    width: 200vw;
+    width: 100vw;
     font-size: 4rem;
     margin-left: 20px;
     margin-right: 20px;
     padding: auto;
   }
 
-  .divinterno {
+  .divinterno, .gridawma {
     width: auto;
     display: flex;
     flex-direction: column;
-    margin: 0px;
+    margin: auto;
     padding: auto;
     align-items: center;
 

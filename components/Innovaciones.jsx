@@ -24,9 +24,18 @@ export const Innovaciones = () => {
         <div className={styles.divinterno}>
             <div className={styles.card}>
               <Image
-                src={"/img/sugarfreemarron.jpg"}
-                height={250}
-                width={250}
+                src={"/img/s-l500.jpg"}
+                height={350}
+                width={350}
+                alt="orgánico"
+                className={styles.logo} 
+              />
+            </div>
+            <div className={styles.card}>
+              <Image
+                src={"/img/SUGAR_FREE.jpg"}
+                height={550}
+                width={550}
                 alt="sin azúcar"
                 className={styles.logo} 
               />
@@ -34,22 +43,14 @@ export const Innovaciones = () => {
             </div>
             <div className={styles.card}>
               <Image
-                src={"/img/selloorganico.jpg"}
-                height={250}
-                width={250}
+                src={"/img/16_sin_conservantes_0.jpg"}
+                height={350}
+                width={350}
                 alt="orgánico"
                 className={styles.logo} 
               />
             </div>
-            <div className={styles.card}>
-              <Image
-                src={"/img/selloambiente.jpg"}
-                height={250}
-                width={250}
-                alt="orgánico"
-                className={styles.logo} 
-              />
-            </div>
+
           </div>
 
       </div>
