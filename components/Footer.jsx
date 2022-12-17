@@ -10,7 +10,7 @@ export const Footer = () => {
       <div className={styles.col}>
         <p className={styles.p}>
           <Link 
-            href="#"
+            href="/politicas"
             target="_blank" 
             rel="noreferrer"
             className={styles.a} 
@@ -18,7 +18,7 @@ export const Footer = () => {
         </p>
         <p className={styles.p}>
           <Link
-            href="#"
+            href="/declaracion"
             target="_blank" 
             rel="noreferrer"
             className={styles.a} 
@@ -26,7 +26,7 @@ export const Footer = () => {
         </p>
         <p className={styles.p}>
           <Link
-            href="#"
+            href="/politicas"
             target="_blank" 
             rel="noreferrer"
             className={styles.a} 

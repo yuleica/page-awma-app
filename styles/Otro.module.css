@@ -88,7 +88,7 @@
   padding: 0 0 45px;
   justify-content: center;
   align-items: center;
-  background-color: #ea80dc;
+  background-color: #9c94e3;
   color: whitesmoke;
   font-weight: bolder;
   width: max-content;
@@ -123,7 +123,7 @@
 .li:hover,
 .li:focus,
 .li:active {
-  color: #9c94e3;
+  color: #ea80dc;
   transition: color 0.15s ease;
 }
 
@@ -182,7 +182,6 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
- 
   align-items: baseline;
   width: 50vw;
 }
@@ -206,7 +205,9 @@
 
 .cardawma1:hover,
 .cardawma1:focus,
-.cardawma1:active {
+.cardawma1:active
+.cardawma2:hover,
+.cardawma2:focus {
   color: #9c94e3;
   border-color: #9c94e3;
 }
@@ -241,13 +242,12 @@
   padding: auto;
   width: 100%;
   height: 100%;
-  /*margin-left: 0.5rem;*/
 }
 
 
 
 .logo:hover {
-  background-color: #9c94e3;
+  background-color: #ea80dc;
   border-radius: 3px;
   transition: color 0.15s ease, border-color 0.15s ease;
   
@@ -339,6 +339,23 @@ hacer el resaltado en arándano */
   justify-content: space-between;
 }
 
+.boton{
+  font-weight: bold;
+  cursor: pointer;
+  padding-top: 5px;
+  margin-left: 35rem;
+  margin-right: 40rem;
+  margin-bottom: auto;
+  border: 1px solid #ccc;
+  background: #9c94e3;
+  border-radius: 8px 8px 8px 8px;
+  align-content: center;
+}
+
+.boton:hover{
+  background: #ddd;
+}
+
 @media (min-width: 0px) and (max-width: 940px){
 
   .container {
@@ -399,6 +416,16 @@ hacer el resaltado en arándano */
     padding: auto;
   }
 
+  .cardawmap {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: auto;
+  }
+
   .divinterno, .gridawma {
     width: auto;
     display: flex;
@@ -417,6 +444,14 @@ hacer el resaltado en arándano */
     align-items: center;
   }
 
+  .boton{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
 
 }
 
@@ -428,7 +463,11 @@ hacer el resaltado en arándano */
   .code {
     background: #111;
   }
+  .headerlogo img {
+    filter:grayscale(100%);
+  }
+
   .logo img {
-    filter: invert(1);
+    filter:invert(1);
   }
 }
