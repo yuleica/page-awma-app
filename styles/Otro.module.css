@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   width: 100vw;
-  /*align-items: center;*/
 }
 
 .main {
@@ -455,19 +454,3 @@ hacer el resaltado en arándano */
 
 }
 
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .headerlogo img {
-    filter:grayscale(100%);
-  }
-
-  .logo img {
-    filter:invert(1);
-  }
-}
